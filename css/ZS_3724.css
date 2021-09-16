@@ -1,0 +1,27 @@
+/*#682591.16//12.15.16// 
+http://www.arris.com/company/regions/cala/
+*/
+div.surfboard-banner {
+    display: none;
+}
+
+/*#711866.8//2.16.17//
+http://www.ebdglobal.com/resources/data-sheets/
+*/
+
+@media(max-width: 640px){
+div.container > div.row > h3.category-bar > a.pull-right{
+	text-align: left;
+	float: left;
+	clear: both;
+	width: 100%;
+	display: block;
+}
+
+div.container > div.row > h3.category-bar:after{
+	content: "";
+	clear: both;
+	width: 100%;
+	display: block;
+}
+}
